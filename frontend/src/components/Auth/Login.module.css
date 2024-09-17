@@ -1,0 +1,55 @@
+.loginContainer {
+   position: fixed;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   width: 35%;
+   padding: 20px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+   background-color: #f9f9f9;
+}
+
+.loginContainer h2 {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.loginContainer form {
+   display: flex;
+   flex-direction: column;
+}
+
+.loginContainer form div {
+   display: flex;
+   justify-content: space-between;
+   gap: 30px;
+   margin-bottom: 15px;
+}
+
+.loginContainer form label {
+   margin: auto 0;
+   font-weight: bold;
+}
+
+.loginContainer form input,
+.loginContainer form select {
+   width: 70%;
+   padding: 10px;
+   border: 1px solid #ccc;
+   border-radius: 5px;
+}
+
+.loginContainer form button {
+   padding: 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: #0070f3;
+   color: white;
+   font-size: 16px;
+   cursor: pointer;
+}
+
+.loginContainer form button:hover {
+   background-color: #005bb5;
+}

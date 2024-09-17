@@ -1,0 +1,38 @@
+/* frontend/src/pages/admin/addUser.module.css */
+
+.addUserContainer {
+   padding: 20px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+}
+
+.form label {
+   margin-bottom: 10px;
+}
+
+.form input,
+.form select {
+   padding: 8px;
+   margin-top: 5px;
+}
+
+.form button {
+   padding: 10px;
+   background-color: #0070f3;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+.form button:hover {
+   background-color: #005bb5;
+}
+
+.error {
+   color: red;
+   font-size: 12px;
+   margin-top: 5px;
+}

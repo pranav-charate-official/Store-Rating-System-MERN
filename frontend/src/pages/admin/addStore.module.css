@@ -1,0 +1,36 @@
+/* frontend/src/pages/admin/addStore.module.css */
+
+.addStoreContainer {
+   padding: 20px;
+}
+
+.form {
+   display: flex;
+   flex-direction: column;
+}
+
+.form label {
+   margin-bottom: 10px;
+}
+
+.form input {
+   padding: 8px;
+   margin-top: 5px;
+}
+
+.form button {
+   padding: 10px;
+   background-color: #0070f3;
+   color: white;
+   border: none;
+   cursor: pointer;
+}
+
+.form button:hover {
+   background-color: #005bb5;
+}
+
+.error {
+   color: red;
+   margin-bottom: 10px;
+}
